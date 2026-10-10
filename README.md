@@ -1,72 +1,87 @@
-# Hi, I'm Mohamed Atef 👋
+# COVID-19 Market Impact Analysis | Power BI
 
-### Data Analyst | Business Intelligence | Power BI Developer
+An interactive Power BI project exploring how 20 major companies across different sectors performed before, during, and after the COVID-19 market shock (2018–2022). The dashboard focuses on company performance, financial risk, recovery patterns, and Technology vs. Non-Technology comparisons.
 
-I am a Commerce English graduate passionate about Data Analytics and Business Intelligence. I use data to uncover insights, track performance, and support better business decisions.
+> **Project type:** Team graduation project  
+> **Tools:** Microsoft Power BI, DAX, Power Query, CSV datasets  
+> **Period analyzed:** 2018–2022  
+> **Companies:** 20 companies across multiple sectors
 
-My goal is to transform raw data into meaningful insights through data cleaning, analysis, visualization, and reporting.
+## Project Overview
 
----
+The COVID-19 era affected companies differently. This project uses an interactive dashboard to compare stock-market performance and risk measures, examine recovery patterns, and help users explore results by time period, sector, and company.
 
-## 🛠️ Technical Skills
+### Business Questions
 
-- **Data Analysis:** Exploratory Data Analysis (EDA), Data Cleaning, Data Transformation
-- **Business Intelligence:** Power BI, DAX, Power Query, KPI Tracking, Dashboard Development
-- **Programming:** Python, Pandas, NumPy, SQL
-- **Spreadsheets:** Microsoft Excel, Pivot Tables, Power Pivot
-- **Data Visualization:** Power BI, Tableau
+- Which companies delivered the strongest and weakest total returns during 2018–2022?
+- How did company risk and volatility differ?
+- Which companies experienced the largest drawdowns?
+- How did Technology companies compare with Non-Technology companies?
+- Which companies showed stronger recovery patterns after the COVID-19 shock?
 
----
+## Dashboard Preview
 
-## 📊 Featured Projects
+### 1. Portfolio Overview
+![Portfolio Overview](images/01-dashboard-overview.png)
 
-My portfolio includes projects focused on data analysis, business performance, and actionable insights.
+### 2. Company Ranking & Risk Analysis
+![Company Ranking and Risk Analysis](images/02-ranking-risk-analysis.png)
 
-### 1. COVID-19 Market Impact Analysis
-Analyzed the performance of leading global companies from 2018 to 2022, comparing technology and non-technology sectors.
+### 3. COVID-19 Recovery Analysis
+![COVID-19 Recovery Analysis](images/03-covid-recovery-analysis.png)
 
-**Key Focus Areas:**
-- Stock performance and returns
-- Risk analysis and recovery trends
-- Comparative sector performance
-- Interactive business intelligence dashboards
+### 4. Technology vs. Non-Technology
+![Technology vs. Non-Technology](images/04-tech-vs-non-tech.png)
 
-**Tools:** Power BI, DAX, Data Modeling
+### 5. Company Performance Analysis
+![Company Performance Analysis](images/05-company-performance-analysis.png)
 
-### 3. Customer Segmentation & RFM Analysis
-Analyzed customer purchasing behavior and explored customer segmentation using Recency, Frequency, and Monetary value.
+### 6. Insights and Recommendations
+![Insights and Recommendations](images/06-insights-and-recommendations.png)
 
-**Tools:** Python, Pandas, Data Analysis
+## Key Areas of Analysis
 
-### 4. Sales Performance Analysis
-Built sales analysis reports to explore revenue, product performance, and business KPIs.
+- **Performance:** total return, average returns, and company rankings.
+- **Risk:** volatility, beta, risk-adjusted return, and maximum drawdown.
+- **Recovery:** company-level recovery patterns during the COVID-19 period.
+- **Sector comparison:** Technology vs. Non-Technology performance and trends.
+- **Interactive exploration:** slicers, filters, drill-down, and company-level views.
 
-**Tools:** Excel, Power BI
+The project presentation reports Tesla as the strongest total-return performer in the selected period and American Airlines as the weakest. Results should be interpreted within the project's selected companies, metrics, and 2018–2022 period; they are not investment advice.
 
----
+## Data Model & Workflow
 
-## 🎓 Training & Professional Development
+The project presentation describes a star-schema model with company and calendar dimensions connected to stock-return and related analytical tables.
 
-- Digital Egypt Pioneers Initiative (DEPI) — Power BI / Data Analysis
-- Information Technology Institute (ITI) — Data Analysis
-- National Telecommunication Institute (NTI) — Data Analysis
-- Freelancing Training — ITIDA
+**Workflow:**
 
----
+1. Import source CSV files.
+2. Clean and transform data in Power Query.
+3. Build the data model and relationships.
+4. Create DAX measures and KPIs.
+5. Develop interactive visuals and validate calculations, filters, and dashboard interactions.
 
-## 📈 What I'm Working Toward
+## Tools & Technologies
 
-- Building practical, business-focused data analytics projects
-- Improving my SQL and Python skills
-- Developing interactive Power BI dashboards
-- Turning analytical findings into actionable recommendations
+- Microsoft Power BI
+- DAX
+- Power Query (M)
+- CSV data sources
+- Data modeling and relationships
+- Interactive visualizations, slicers, drill-down, and drill-through
 
----
+## My Contribution
 
-## 🤝 Connect With Me
+My documented role in this team project was **Data Cleaning & Transformation**. The project was completed collaboratively, with other team members responsible for areas including data collection, data modeling, visualization, dashboard design, DAX/KPI development, and documentation.
 
-- **LinkedIn:** https://www.linkedin.com/in/mohamedatef777/
+## Project Files
 
----
+- `Final-Project-DEPI.pbix` — Power BI report file.
+- `Project-Presentation.pptx` — project presentation.
+- `images/` — six dashboard and project-page screenshots.
 
-*Always learning, analyzing, and turning data into insights.*
+To explore the report, download the `.pbix` file and open it in Microsoft Power BI Desktop. Availability of the underlying source data may affect whether every element refreshes correctly.
+
+## Disclaimer
+
+This project is for educational and portfolio purposes only. It is a historical analysis of selected companies and is not financial or investment advice.
