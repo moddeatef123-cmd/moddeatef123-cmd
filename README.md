@@ -1,87 +1,113 @@
-# COVID-19 Market Impact Analysis | Power BI
+# 📊 COVID-19 Market Impact Analysis | Power BI
 
-An interactive Power BI project exploring how 20 major companies across different sectors performed before, during, and after the COVID-19 market shock (2018–2022). The dashboard focuses on company performance, financial risk, recovery patterns, and Technology vs. Non-Technology comparisons.
+### Analyzing Stock Market Performance, Financial Risk & Recovery (2018–2022)
 
-> **Project type:** Team graduation project  
-> **Tools:** Microsoft Power BI, DAX, Power Query, CSV datasets  
-> **Period analyzed:** 2018–2022  
-> **Companies:** 20 companies across multiple sectors
+An interactive Business Intelligence project analyzing 20 major global companies across different sectors before, during, and after the COVID-19 market shock.
 
-## Project Overview
+The project explores market performance, investment risk, recovery patterns, and differences between Technology and Non-Technology companies using interactive Power BI dashboards.
 
-The COVID-19 era affected companies differently. This project uses an interactive dashboard to compare stock-market performance and risk measures, examine recovery patterns, and help users explore results by time period, sector, and company.
+---
 
-### Business Questions
+## 📌 Project Overview
 
-- Which companies delivered the strongest and weakest total returns during 2018–2022?
-- How did company risk and volatility differ?
-- Which companies experienced the largest drawdowns?
-- How did Technology companies compare with Non-Technology companies?
-- Which companies showed stronger recovery patterns after the COVID-19 shock?
+The COVID-19 pandemic created significant disruption across global financial markets.
 
-## Dashboard Preview
+This project analyzes historical stock-market data from 2018 to 2022 to understand how major companies performed under market uncertainty, which companies experienced the greatest losses, and how quickly different companies recovered.
 
-### 1. Portfolio Overview
-![Portfolio Overview](images/01-dashboard-overview.png)
+The dashboards provide an interactive view of company performance, risk indicators, and sector-level comparisons.
 
-### 2. Company Ranking & Risk Analysis
-![Company Ranking and Risk Analysis](images/02-ranking-risk-analysis.png)
+## 🎯 Business Questions
 
-### 3. COVID-19 Recovery Analysis
-![COVID-19 Recovery Analysis](images/03-covid-recovery-analysis.png)
+- Which companies achieved the highest and lowest total returns?
+- Which companies experienced the greatest volatility and maximum drawdowns?
+- How did Technology companies perform compared with Non-Technology companies?
+- Which companies demonstrated stronger recovery patterns after the COVID-19 shock?
+- How did company performance and risk change over time?
+- Which companies showed stronger risk-adjusted performance?
 
-### 4. Technology vs. Non-Technology
-![Technology vs. Non-Technology](images/04-tech-vs-non-tech.png)
-
-### 5. Company Performance Analysis
-![Company Performance Analysis](images/05-company-performance-analysis.png)
-
-### 6. Insights and Recommendations
-![Insights and Recommendations](images/06-insights-and-recommendations.png)
-
-## Key Areas of Analysis
-
-- **Performance:** total return, average returns, and company rankings.
-- **Risk:** volatility, beta, risk-adjusted return, and maximum drawdown.
-- **Recovery:** company-level recovery patterns during the COVID-19 period.
-- **Sector comparison:** Technology vs. Non-Technology performance and trends.
-- **Interactive exploration:** slicers, filters, drill-down, and company-level views.
-
-The project presentation reports Tesla as the strongest total-return performer in the selected period and American Airlines as the weakest. Results should be interpreted within the project's selected companies, metrics, and 2018–2022 period; they are not investment advice.
-
-## Data Model & Workflow
-
-The project presentation describes a star-schema model with company and calendar dimensions connected to stock-return and related analytical tables.
-
-**Workflow:**
-
-1. Import source CSV files.
-2. Clean and transform data in Power Query.
-3. Build the data model and relationships.
-4. Create DAX measures and KPIs.
-5. Develop interactive visuals and validate calculations, filters, and dashboard interactions.
-
-## Tools & Technologies
+## 🛠️ Tools & Technologies
 
 - Microsoft Power BI
 - DAX
-- Power Query (M)
-- CSV data sources
-- Data modeling and relationships
-- Interactive visualizations, slicers, drill-down, and drill-through
+- Power Query
+- Data Cleaning & Transformation
+- Data Modeling
+- Financial Performance Analysis
+- Data Visualization
+- CSV Datasets
 
-## My Contribution
+## 📈 Dashboard Preview
 
-My documented role in this team project was **Data Cleaning & Transformation**. The project was completed collaboratively, with other team members responsible for areas including data collection, data modeling, visualization, dashboard design, DAX/KPI development, and documentation.
+### 1. Overview Dashboard
 
-## Project Files
+A high-level view of company performance, total returns, market trends, and Technology versus Non-Technology comparisons.
 
-- `Final-Project-DEPI.pbix` — Power BI report file.
-- `Project-Presentation.pptx` — project presentation.
-- `images/` — six dashboard and project-page screenshots.
+![Portfolio Overview](01-dashboard-overview.jpg)
 
-To explore the report, download the `.pbix` file and open it in Microsoft Power BI Desktop. Availability of the underlying source data may affect whether every element refreshes correctly.
+### 2. Company Ranking & Risk Analysis
 
-## Disclaimer
+Compares company returns, volatility, maximum drawdowns, and risk-adjusted performance.
 
-This project is for educational and portfolio purposes only. It is a historical analysis of selected companies and is not financial or investment advice.
+![Company Ranking and Risk Analysis](02-ranking-risk-analysis.jpg)
+
+### 3. COVID-19 Recovery Analysis
+
+Examines recovery patterns, drawdowns, and differences in company performance during the pandemic period.
+
+![COVID-19 Recovery Analysis](03-covid-recovery-analysis.jpg)
+
+### 4. Technology vs. Non-Technology
+
+Compares sector performance, returns, volatility, and other financial indicators over the analysis period.
+
+![Technology vs Non-Technology](04-tech-vs-non-tech.jpg)
+
+### 5. Company Performance Analysis
+
+Provides a deeper look at company-level performance and financial indicators.
+
+![Company Performance Analysis](05-company-performance-analysis.png)
+
+### 6. Insights & Recommendations
+
+Highlights key analytical findings and potential business implications derived from the project.
+
+![Insights and Recommendations](06-insights-and-recommendations.png)
+
+## 🔍 Key Findings
+
+The analysis identified several notable patterns:
+
+- Tesla recorded the highest total return in the analyzed company group, at approximately 476.5%.
+- American Airlines recorded the lowest total return, at approximately -76.0%.
+- Technology companies achieved an average return of approximately 105%, compared with 38% for Non-Technology companies.
+- The difference between the two sector averages was approximately 67 percentage points.
+- Company risk varied considerably, with differences in volatility and maximum drawdown across the analyzed companies.
+- Recovery patterns differed significantly across companies following the market shock.
+
+*These findings refer to the companies and historical period included in this project; they should not be interpreted as predictions of future market performance.*
+
+## 💡 Business Value
+
+This project demonstrates how interactive dashboards can help users:
+
+- Compare company performance across multiple years.
+- Identify companies with higher historical returns and greater downside risk.
+- Evaluate differences between sectors.
+- Explore recovery trends after a major market disruption.
+- Turn historical financial data into accessible visual insights.
+
+## 📁 Project Files
+
+- [Power BI Dashboard (.pbix)](Covid%20Market%20Impact.pbix)
+- [Project Presentation (.pptx)](Project-Presentation.pptx)
+
+## 👨‍💻 Author
+
+**Mohamed Atef**
+
+Data Analyst | Business Intelligence | Power BI Developer
+
+Interested in transforming raw data into meaningful insights that support better business decisions.
+
+- [GitHub Profile](https://github.com/moddeatef123-cmd)
